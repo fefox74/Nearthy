@@ -1,0 +1,85 @@
+.navbar-title {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.navbar-logo {
+  width: 64px;
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15vh;
+  margin-bottom: 8vh;
+  flex-direction: row;
+}
+
+.logo {
+  width: 20vw;
+}
+
+.title {
+  font-size: 8vw;
+  color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.download-button {
+  font-size: 3vw;
+  color: white;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.social-container {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.social-button {
+  font-size: 2vw;
+  color: black;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+a {
+  margin: 0 40px 0 40px;
+}
+
+.download-button:hover,
+.social-button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 830px) {
+  .logo {
+    width: 50vw;
+  }
+  .title {
+    font-size: 18vw;
+  }
+  .download-button {
+    font-size: 8vw;
+  }
+  .social-button {
+    font-size: 6vw;
+  }
+  .logo-container {
+    flex-direction: column;
+    margin-bottom: 15vh;
+  }
+}
