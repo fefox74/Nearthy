@@ -1,5 +1,6 @@
 .navbar-title {
   font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 .navbar-logo {
@@ -21,9 +22,31 @@
 }
 
 .title {
-  font-size: 8vw;
+  font-size: 3vw;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.1vw;
+  color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.list-el {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.big {
+  font-size: 8vw;
+}
+
+.text-container {
+  display: flex;
+  padding: 5vh 10vw;
+  flex-direction: column;
 }
 
 .download-container {
@@ -70,6 +93,9 @@ a {
     width: 50vw;
   }
   .title {
+    font-size: 6vw;
+  }
+  .big {
     font-size: 18vw;
   }
   .download-button {
@@ -81,5 +107,11 @@ a {
   .logo-container {
     flex-direction: column;
     margin-bottom: 15vh;
+  }
+  .text-container {
+    padding: 5vh 5vw;
+  }
+  .text {
+    font-size: 3.5vw;
   }
 }
