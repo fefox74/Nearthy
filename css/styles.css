@@ -32,11 +32,15 @@
   font-size: 1.1vw;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .list-el {
+  font-size: 1.1vw;
+
+  font-weight: 700;
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .big {
@@ -61,6 +65,11 @@
   color: white;
   opacity: 0.5;
   transition: 0.3s;
+}
+
+.mail {
+  margin: 0;
+  color: white;
 }
 
 .social-container {
