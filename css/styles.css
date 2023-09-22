@@ -37,7 +37,6 @@
 
 .list-el {
   font-size: 1.1vw;
-
   font-weight: 700;
   color: white;
   margin-bottom: 30px;
@@ -138,6 +137,9 @@ a {
     padding: 5vh 5vw;
   }
   .text {
+    font-size: 3.5vw;
+  }
+  .list-el {
     font-size: 3.5vw;
   }
 }
